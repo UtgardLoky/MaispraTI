@@ -20,8 +20,10 @@ let peso = solicitarNumero('Digite seu peso (em kg): ');
 console.log(`Altura: ${altura} metros`);
 console.log(`Peso: ${peso} kg`);
 
+//calcula imc
 imc = peso / altura**2
 
+//verifica faixa de peso
 if (imc <= 18.5) {
     Text = 'BAIXO PESO'
 } else if (imc < 25) {
@@ -29,9 +31,7 @@ if (imc <= 18.5) {
 } else if (imc < 30) {
     Text = 'SOBREPESO'
 } else {
-    Text = 'OBSIDADE'
+    Text = 'OBESIDADE'
 }
 
-console.log('seu imc é de: ${imc}') 
-
-
+console.log(Text, `\nseu imc é de: ${imc}`)

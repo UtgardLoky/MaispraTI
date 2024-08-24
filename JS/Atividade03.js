@@ -2,6 +2,7 @@
 
 const prompt = require ('prompt-sync') ()
 
+//solicita nota
 let nota = prompt('Digite sua nota: ')
 
 // Verifica se é um numero

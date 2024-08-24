@@ -2,6 +2,7 @@
 
 const prompt = require ('prompt-sync') ()
 
+//solicita idade
 let idade = prompt('Qual a sua idade? ')
 
 // Verifica se é um numero
