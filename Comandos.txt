@@ -1,0 +1,6 @@
+Instalar nodejs
+
+npm install prompt-sync 
+
+
+https://git-school.github.io/visualizing-git/
