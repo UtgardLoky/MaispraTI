@@ -4,3 +4,6 @@ npm install prompt-sync
 
 
 https://git-school.github.io/visualizing-git/
+
+
+$ git config --global alias.hist 'log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
