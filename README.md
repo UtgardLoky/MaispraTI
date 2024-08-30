@@ -9,7 +9,6 @@ Baixe o Instalador:
 
 Acesse o site oficial do Node.js: nodejs.org.
 Você verá duas versões disponíveis: LTS (Long Term Support) e Current. É recomendado escolher a versão LTS para maior estabilidade.
-Execute o Instalador:
 
 Abra o arquivo baixado e siga as instruções na tela para concluir a instalação.
 
