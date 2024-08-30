@@ -12,7 +12,7 @@ while (isNaN(numeromacas)) {
 
 // Verifica nota e exibe status 
 if (numeromacas < 12) {
-    console.log(`vc está comprando ${numeromacas} maçãs e o valor total fica em:`, numeromacas*0.30, 'reais' )
+    console.log(`Você está comprando ${numeromacas} maçãs e o valor total fica em:`, numeromacas*0.30, 'reais' )
 } else {
-    console.log(`vc está comprando ${numeromacas} maçãs e o valor total fica em:`, numeromacas*0.25, 'reais' )
+    console.log(`Você está comprando ${numeromacas} maçãs e o valor total fica em:`, numeromacas*0.25, 'reais' )
     }

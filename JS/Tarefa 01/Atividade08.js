@@ -15,7 +15,12 @@ function solicitarNumero(mensagem) {
 let numero1 = solicitarNumero('informe o primeiro numero: ')
 let numero2 = solicitarNumero('informe o segundo numero: ')
 
-//Verifica tipo de triangulo
+//Verifica numeros iguais
+while (numero1===numero2) {
+    numero2 = solicitarNumero('Favor informar um numero diferente do primeiro:')
+}
+
+//Coloca em ordem crescente 
 if (numero1 > numero2) {
     console.log(numero2, numero1)
 } else {

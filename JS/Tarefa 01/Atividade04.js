@@ -28,7 +28,7 @@ switch (operacao) {
 
 console.log('Você escolheu:', Text);
 
-// Exemplo de como você poderia continuar dependendo da operação escolhida
+// Realiza as operações escolhida
 if (operacao >= 1 && operacao <= 4) {
     let num1 = parseFloat(prompt('Digite o primeiro número: '));
     let num2 = parseFloat(prompt('Digite o segundo número: '));
