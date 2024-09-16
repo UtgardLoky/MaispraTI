@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Dinâmica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Gerenciador de Lista</h2>
+    <button onclick="incluirItem()">Incluir</button>
+    <button onclick="removerItem()">Remover</button>
+
+    <ul id="lista">
+    </ul>
+
+    <script>
+        let contador = 1; // Inicia o contador de elementos
+
+        function incluirItem() {
+            const lista = document.getElementById("lista");
+            const novoItem = document.createElement("li");
+            novoItem.textContent = `elemento${contador}`;
+            lista.appendChild(novoItem);
+            contador++;
+        }
+
+        function removerItem() {
+            const lista = document.getElementById("lista");
+            if (lista.lastElementChild) {
+                lista.removeChild(lista.lastElementChild);
+                contador--;
+            }
+        }
+    </script>
+</body>
+</html>
