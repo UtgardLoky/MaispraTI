@@ -1,6 +1,5 @@
 
 
-Gigabyte S55U				6600
 
 ASRock Phantom Gaming PG34WQ15R3A	3500
 
@@ -18,4 +17,6 @@ Philips 49'' SuperWide 499P9H/00	70hz
 ROG Strix XG49WCR			FHD	
 
 Cepheus Fuse Vpro49			E-led
+
+Gigabyte S55U               Tela Plana/ sem PBP
 
