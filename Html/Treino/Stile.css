@@ -1,0 +1,47 @@
+/* - Aplique cores ao fundo do header, section, aside e footer.
+- Centralize o texto no header e no footer.
+- Utilize uma fonte personalizada (ex.: Google Fonts) para o texto do section.
+- Crie um layout com duas colunas: o section à esquerda e o aside à direita, ocupando 70% e 30% da largura da tela, respectivamente.
+- Adicione um efeito hover para os links do menu de navegação e os do aside (ex.: mudar de cor quando passar o mouse). */
+
+body {
+
+    display: flex;
+    flex-direction: column;
+} 
+
+main {
+    display: flex;
+}
+
+header {
+
+    background-color: #007DE3;
+    text-align: center;
+    
+}
+
+header a {
+    margin-right: 15px;
+}
+
+section {
+
+    background-color: #474a4d;
+    flex: 6;
+    text-align: center;
+
+}
+
+aside{
+
+    background-color: black;
+    flex: 0.5;  
+
+}
+
+footer {
+
+    background-color: blueviolet;
+    text-align: center;
+}
