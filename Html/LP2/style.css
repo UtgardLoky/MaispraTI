@@ -1,0 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    transition: transform 0.2s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
